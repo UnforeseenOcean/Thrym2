@@ -1,0 +1,1 @@
+Drag and drop "Mod_P.pak" into the "Paks" folder inside the game installation folder.

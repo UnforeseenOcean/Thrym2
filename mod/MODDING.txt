@@ -1,0 +1,36 @@
+RAGNAROCK MODDING CODE OF CONDUCT
+VERSION 1.0 - MARCH 29, 2024
+
+In order to mod the game, you should abide by the community code of conduct. Failure to do so may result in loss of support for all of us or even bans in some cases.
+
+1. Song Modification
+It is not allowed to modify the OST list. Actions such as ones listed below are prohibited:
+- Adding DLC songs to Volume 1 or 2
+- Changing the map files (use custom songs list instead)
+- Adding new, custom songs to OST list (ditto)
+
+2. Script Mods
+The script mods are strictly not allowed to tamper with these areas of the game that may impact other's experiences:
+- Any part of Multiplayer mode that has gameplay impact (exception: **UI element on your side** that deals with it, as it shouldn't impact other's experiences)
+- Leaderboards (**ESPECIALLY** the score submission code)
+
+3. Copyright Violation
+It is strictly prohibited to upload, share, distribute, or otherwise include content not licensed by Wanadev Studio in the game. Please refrain from using copyrighted music, imagery or other content that may cause harm or trouble to the developers. They're only allowed to use the copyrighted content up to the point they already do in the game, and it is forbidden to disrupt that.
+
+4. Be Nice
+You are liable for any mods you create using this knowledge. Do not make mods that cause harm to groups of people (such as people with photosensitive epilepsy), or spread hate and other harmful messages (such as mods containing racist, sexist, and other discriminatory content). If it doesn't belong in this server, it doesn't belong in the game. Do not try to be an edgy child and skirt around the rules.
+
+5. None of this Is Sanctioned
+You are liable for any mods you install. Mods (obviously) modify your game to do things the developers never intended to. They can be harmful, malicious or dangerous. Do not install mods that you don't trust. It is not correct to ask for help to the developers about the mod you chose to make/install. Don't bother them about it.
+
+6. Streaming
+You must state whether the game is modded or not at all times while streaming the modded game. You are not allowed to cause confusion in the community by presenting a modded game as a game that the developers provide. 
+
+7. Piracy
+It is strictly forbidden to unlock content that is paid without having paid for it legitimately through mods. There's no "buts" or "ifs".
+
+8. Automation
+Mods are not allowed to directly automate the gameplay, such as but not limited to, having the drums hit themselves when the notes are at the exact center of the drums. For purposes of hobby projects, you may modify parts of the game to facilitate the functions you need (visuals and audio only), however if the mod you made affects other's experiences, it is not allowed.
+
+9. Comply to Developer's Demands
+If anyone from Wanadev Studio tells you to take the mod down, you must do so. We're doing things they didn't strictly allow, which may cause trouble with the licensors, record labels and/or team members at the studio. Please respect their decisions.

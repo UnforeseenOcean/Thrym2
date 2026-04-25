@@ -1,0 +1,79 @@
+{
+  "_comment": "Ragnarock bot configuration",
+
+  "_title": "Must be Ragnarock with two spaces after it, that's how it was written",
+  "window_title": "Ragnarock  ",
+
+  "_pixels": [
+    "Exactly 4, 5, or 6 [x, y] positions in window-relative coordinates.",
+    "Pixels 1-4 (index 0-3): drum lane pixels, left to right:",
+    "  pixel 1 = LeftMost drum  = key Q",
+    "  pixel 2 = LeftMid drum   =  key W or I (auto-selected)",
+    "  pixel 3 = RightMid drum  = key O or E (auto-selected)",
+    "  pixel 4 = RightMost drum = key P",
+    "Pixels 5-6 (index 4-5, optional): shield indicator pixels.",
+    "  Yellow or cyan = spacebar.",
+    "Use find_coords.py to find the right coordinates."
+  ],
+  "pixels": [
+    [
+        542,
+        774
+    ],
+    [
+        886,
+        767
+    ],
+    [
+        1002,
+        771
+    ],
+    [
+        1376,
+        773
+    ],
+    [
+        32,
+        990
+    ],
+    [
+        1911,
+        1013
+    ]
+],
+  "_color_tolerances": [
+    "Green trigger: G >= green_g_min, R <= green_rb_max, B <= green_rb_max.",
+    "Yellow/Cyan: classified by HSV hue range. Adjust if detection is unreliable."
+  ],
+  "color_tolerances": {
+    "green_g_min": 170,
+    "green_rb_max": 100,
+    "hsv_saturation_min": 0.4,
+    "hsv_value_min": 0.4,
+    "yellow_hue_min": 40,
+    "yellow_hue_max": 70,
+    "cyan_hue_min": 170,
+    "cyan_hue_max": 200
+  },
+
+  "_timing": [
+    "poll_interval_ms: how often pixels are sampled (ms). 16 to 60 Hz.",
+    "key_hold_ms: how long each key is held down.",
+    "cooldown_ms: minimum gap before the same chord can fire again.",
+    "rapid_sequence_gap_ms: delay between individual notes when firing a meme-map",
+    "  (3-4 note) pattern in rapid succession. Lower = faster burst."
+  ],
+  "poll_interval_ms": 16,
+  "key_hold_ms": 20,
+  "cooldown_ms": 20,
+  "rapid_sequence_gap_ms": 20,
+  "key_delay": 2,
+
+  "_window_relative": "If true, pixel coords are relative to the game window's top-left client corner. Recommended.",
+  "window_relative": true,
+  
+  "_readybot": "Enables/disables Readybot.",
+  "enabled": true,
+  "match_threshold": 0.85,
+  "assets_dir": "assets"
+}
